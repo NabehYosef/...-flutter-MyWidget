@@ -23,14 +23,14 @@ class _ExSwichRadioListState extends State<ExSwichRadioList> {
         ),
         onPressed: () {
           print(
-            'NabehIsKing is Hero is perfect Nabeh is everything',
+            'Nabeh',
           );
         },
       ),
       appBar: AppBar(
         backgroundColor: Colors.red,
         title: Text(
-          'Fund_App',
+          'Swich RadioList',
         ),
       ),
       body: Column(
@@ -63,15 +63,7 @@ class _ExSwichRadioListState extends State<ExSwichRadioList> {
             height: 30,
           ), //======================================
           //==========================================
-          SwitchListTile(
-            title: Text('Enable Notifications'),
-            value: eswitch,
-            onChanged: (value) {
-              setState(() {
-                eswitch = value;
-              });
-            },
-          ),
+
           SizedBox(
             height: 30,
           ), //======================================
@@ -81,6 +73,7 @@ class _ExSwichRadioListState extends State<ExSwichRadioList> {
             style: TextStyle(fontSize: 20),
           ),
           RadioListTile(
+            //Radio without title but (RadioListTile with title an another things)
             tileColor: Colors.green,
             activeColor: Colors.red,
             title: Text('Syria'),

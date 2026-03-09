@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:fund_app/checkboxtile.dart';
+import 'package:fund_app/Examples/checkboxtile.dart';
+import 'package:fund_app/Examples/stack.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +16,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CheckBoxTile(),
+      home: ExStack(),
     );
   }
 }
