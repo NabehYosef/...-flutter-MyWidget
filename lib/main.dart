@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fund_app/Examples/appbar.dart';
-import 'package:fund_app/Examples/drawer.dart';
+import 'package:fund_app/Examples/tapbar.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,7 +15,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ExDrawer(),
+      home: ExTapBar(),
     );
   }
 }

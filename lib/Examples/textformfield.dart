@@ -17,7 +17,7 @@ class ExTextFormField extends StatelessWidget {
           Column(
             children: [
               Form(
-                autovalidateMode: AutovalidateMode.always,
+                //  autovalidateMode: AutovalidateMode.always,
                 key: formstate,
                 child: TextFormField(
                   validator: (value) {
