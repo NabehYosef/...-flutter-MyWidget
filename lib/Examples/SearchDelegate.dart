@@ -99,7 +99,7 @@ class CustomSearchDelegate extends SearchDelegate {
                   child: Padding(
                 padding: const EdgeInsets.all(13.0),
                 child: Text(
-                  "${usernaem[index]}",
+                  "${filterList![index]}",
                   style: TextStyle(fontSize: 16),
                 ),
               )),
