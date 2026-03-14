@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fund_app/Examples/appbar.dart';
-import 'package:fund_app/Examples/bottomsheet.dart';
 import 'package:fund_app/Examples/pageview.dart';
-import 'package:fund_app/Examples/snackBar.dart';
+import 'package:fund_app/Examples/scroll.dart';
 import 'package:fund_app/Examples/tapbar.dart';
 import 'package:fund_app/Examples/textfield.dart';
 
@@ -20,7 +19,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ExSnackBar(),
+      home: ExScroll(),
       routes: {
         "ExAppBar": (context) => ExAppBar(),
         "ExPageview": (context) => ExPageview(),

@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 
 class ExDrawer extends StatelessWidget {
-  GlobalKey<ScaffoldState> stateDrawer = GlobalKey();
+  const ExDrawer({super.key});
+
   @override
   Widget build(BuildContext context) {
+    GlobalKey<ScaffoldState> stateDrawer = GlobalKey();
     return Scaffold(
       key: stateDrawer,
       appBar: AppBar(

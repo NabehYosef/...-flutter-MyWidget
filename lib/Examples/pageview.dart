@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
 
 class ExPageview extends StatelessWidget {
-  List ImageName = [
-    "images/prog.png",
-    "images/prog.png",
-  ];
+  const ExPageview({super.key});
 
   @override
   Widget build(BuildContext context) {
+    // ignore: non_constant_identifier_names
+    List ImageName = [
+      "images/prog.png",
+      "images/prog.png",
+    ];
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.orange,
