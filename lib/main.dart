@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:fund_app/Examples/appbar.dart';
-import 'package:fund_app/Examples/futurebuilder.dart';
 import 'package:fund_app/Examples/pageview.dart';
 import 'package:fund_app/Examples/tapbar.dart';
 import 'package:fund_app/Examples/textfield.dart';
+import 'package:fund_app/package/AwesomeDialogbackage.dart';
+import 'package:fund_app/package/geolocator.dart';
 
 void main() {
   runApp(MyApp());
@@ -19,7 +20,11 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ExFutureBuilder(),
+      theme: ThemeData(
+        appBarTheme: AppBarTheme(backgroundColor: Colors.green),
+        fontFamily: "IosevkaCharonMono-Regular",
+      ),
+      home: Exgeolocator(),
       routes: {
         "ExAppBar": (context) => ExAppBar(),
         "ExPageview": (context) => ExPageview(),
